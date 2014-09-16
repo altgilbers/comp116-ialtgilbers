@@ -1,12 +1,16 @@
+set1.pcap
+---------
+
+
 1. How many packets are there in this set?
 
 1503
 
-2. What protocol was used to transfer files from PC to server?
+1. What protocol was used to transfer files from PC to server?
 
 FTP
 
-3. Briefly describe why the protocol used to transfer the files is insecure?
+1. Briefly describe why the protocol used to transfer the files is insecure?
 
 Credentials and content are transmitted in clear text.  Anyone monitoring the network could steal this information and abuse it.
 
