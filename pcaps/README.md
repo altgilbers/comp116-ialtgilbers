@@ -43,6 +43,8 @@ smash.txt
 extracted
 
 
+set2.pcap
+---------
 
 10. How many packets are there in this set?
 
@@ -68,7 +70,7 @@ SNMP - only "public" community SNMP queries
 13. For each of the plaintext username-password pair that you found, identify the protocol used, server IP, the corresponding domain name (e.g., google.com), and port number.
 
 username | password | protocol | port | ip | domain 
---------|--------|--------|----|--|------
+--------|--------|--------|----|---|------
 cisco | 185 12345d | telnet | 23 | 200.60.17.1 | unknown
 cidco | 185 122333 | telnet | 23 | 200.60.17.1 | unknown
 cisco | 185 august23 | telnet | 23|200.60.17.1 | unknown
