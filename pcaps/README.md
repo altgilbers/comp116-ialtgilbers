@@ -1,28 +1,28 @@
 set1.pcap
 ---------
 
-(1.) How many packets are there in this set?
-	1503
+1. How many packets are there in this set?
+		1503
 2. What protocol was used to transfer files from PC to server?
-	FTP
+		FTP
 3. Briefly describe why the protocol used to transfer the files is insecure?
-	Credentials and content are transmitted in clear text.  Anyone monitoring the network could steal this information and abuse it.
+		Credentials and content are transmitted in clear text.  Anyone monitoring the network could steal this information and abuse it.
 4. What is the secure alternative to the protocol used to transfer files?
-	There are many, but SFTP (SSH File Transfer Protocol) is a common one.
+		There are many, but SFTP (SSH File Transfer Protocol) is a common one.
 5. What is the IP address of the server?
-	67.23.79.113
+		67.23.79.113
 6. What was the username and password used to access the server?
-	USER ihackpineapples
-	PASS rockyou1
+		USER ihackpineapples
+		PASS rockyou1
 7. How many files were transferred from PC to server?
-	4
+		4
 8. What are the names of the files transferred from PC to server?
-	BjN-O1hCAAAZbiq.jpg
-	BvgT9p2IQAEEoHu.jpg
-	BvzjaN-IQAA3XG7.jpg
-	smash.txt
+		BjN-O1hCAAAZbiq.jpg
+		BvgT9p2IQAEEoHu.jpg
+		BvzjaN-IQAA3XG7.jpg
+		smash.txt
 9. Extract all the files that were transferred from PC to server. These files must be part of your submission!
-extracted
+	extracted
 
 
 set2.pcap
