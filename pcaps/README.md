@@ -2,12 +2,6 @@ set1.pcap
 ---------
 
 
-First Header | Second Header
------------- | -------------
-Content from cell 1 | Content from cell 2
-Content in the first column | Content in the second column
-
-
 1. How many packets are there in this set?
 
 1503
@@ -73,15 +67,15 @@ SNMP - only "public" community SNMP queries
 
 13. For each of the plaintext username-password pair that you found, identify the protocol used, server IP, the corresponding domain name (e.g., google.com), and port number.
 
-|username|password|protocol|port|ip|domain| 
-|--------|--------|--------|----|--|------|
+username|password|protocol|port|ip|domain 
+--------|--------|--------|----|--|------
 cisco|185 12345d|telnet|23|200.60.17.1|unknown
-|cidco|185 122333|telnet|23|200.60.17.1|unknown|
-|cisco|185 august23|telnet|23|200.60.17.1|unknown|
-|cisco|184 yomama1|telnet|23|200.60.17.1|unknown|
-|cisco|185 anthony7|telnet|23|200.60.17.1|unknown|
-|cisco|185 allahu|telnet|23|200.60.17.1|unknown|
-|chirs@digitalinterlude.com|Volrathw69|POP|110|75.126.75.131|mail.si-sv3231.com|
+cidco|185 122333|telnet|23|200.60.17.1|unknown
+cisco|185 august23|telnet|23|200.60.17.1|unknown
+cisco|184 yomama1|telnet|23|200.60.17.1|unknown
+cisco|185 anthony7|telnet|23|200.60.17.1|unknown
+cisco|185 allahu|telnet|23|200.60.17.1|unknown
+chris@digitalinterlude.com|Volrathw69|POP|110|75.126.75.131|mail.si-sv3231.com
 
 
 All telnet attempts were to: 200.60.17.1 which has no DNS, but the WHOIS record points to a Peruvian telecom company.  The device's telnet banner also identified itself as an asset of Telefonica Empresas Peru
