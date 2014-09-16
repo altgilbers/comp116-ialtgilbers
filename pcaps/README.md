@@ -1,8 +1,7 @@
 set1.pcap
 ---------
 
-
-1. How many packets are there in this set?
+(1.) How many packets are there in this set?
 	1503
 2. What protocol was used to transfer files from PC to server?
 	FTP
@@ -41,6 +40,8 @@ set2.pcap
 	TELNET - see #13
 	SNMP - only "public" community SNMP queries
 13. For each of the plaintext username-password pair that you found, identify the protocol used, server IP, the corresponding domain name (e.g., google.com), and port number.
+
+
 	username | password | protocol | port | ip | domain 
 	--------|--------|--------|----|---|------
 	cisco | 185 12345d | telnet | 23 | 200.60.17.1 | unknown
