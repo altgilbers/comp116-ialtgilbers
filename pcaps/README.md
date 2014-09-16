@@ -2,15 +2,21 @@ set1.pcap
 ---------
 
 
+First Header | Second Header
+------------ | -------------
+Content from cell 1 | Content from cell 2
+Content in the first column | Content in the second column
+
+
 1. How many packets are there in this set?
 
 1503
 
-1. What protocol was used to transfer files from PC to server?
+2. What protocol was used to transfer files from PC to server?
 
 FTP
 
-1. Briefly describe why the protocol used to transfer the files is insecure?
+3. Briefly describe why the protocol used to transfer the files is insecure?
 
 Credentials and content are transmitted in clear text.  Anyone monitoring the network could steal this information and abuse it.
 
