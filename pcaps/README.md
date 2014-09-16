@@ -63,21 +63,21 @@ SNMP - only "public" community SNMP queries
 
 13. For each of the plaintext username-password pair that you found, identify the protocol used, server IP, the corresponding domain name (e.g., google.com), and port number.
 
-Telnet - TCP/23 - all attempts were to:   200.60.17.1 which has no DNS, but the WHOIS record points to a Peruvian telecom company.  The device's telnet banner also identified itself as an asset of Telefonica Empresas Peru
- 
-|cisco|185 12345d|
-|cidco|185 122333|
-|cisco|185 august23|
-|cisco|184 yomama1|
-|cisco|185 anthony7|
-|cisco|185 allahu|
+|username|password|protocol|port|ip|domain| 
+|--------|--------|--------|----|--|------|
+|cisco|185 12345d|telnet|23|200.60.17.1|unknown|
+|cidco|185 122333|telnet|23|200.60.17.1|unknown|
+|cisco|185 august23|telnet|23|200.60.17.1|unknown|
+|cisco|184 yomama1|telnet|23|200.60.17.1|unknown|
+|cisco|185 anthony7|telnet|23|200.60.17.1|unknown|
+|cisco|185 allahu|telnet|23|200.60.17.1|unknown|
+|chirs@digitalinterlude.com|Volrathw69|POP|110|75.126.75.131|mail.si-sv3231.com|
 
-POP - Post Office Protocol - TCP/110
-mail.si-sv3231.comchirs@digitalinterlude.com:Volrathw69
-
+All telnet attempts were to: 200.60.17.1 which has no DNS, but the WHOIS record points to a Peruvian telecom company.  The device's telnet banner also identified itself as an asset of Telefonica Empresas Peru
 
 14. Of all the plaintext username-password pairs that you found, how many of them are legitimate? That is, the username-password was valid, access successfully granted?
 
+I only found one that was valid..  chris@digitalinterlude.com:Volrathw69
 
 15. How did you verify the successful username-password pairs?
 
