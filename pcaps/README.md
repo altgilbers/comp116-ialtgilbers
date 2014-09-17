@@ -40,7 +40,8 @@ set2.pcap
   * TELNET - see #13
   * SNMP - only "public" community SNMP queries
 13. For each of the plaintext username-password pair that you found, identify the protocol used, server IP, the corresponding domain name (e.g., google.com), and port number.
-	username | password | protocol | port | ip | domain 
+	
+  username | password | protocol | port | ip | domain 
 	--------|--------|--------|----|---|------
 	cisco | 185 12345d | telnet | 23 | 200.60.17.1 | unknown
 	cidco | 185 122333 | telnet | 23 | 200.60.17.1 | unknown
